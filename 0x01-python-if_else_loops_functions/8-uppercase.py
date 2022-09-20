@@ -12,4 +12,3 @@ def uppercase(str):
         else:
             print("{}".format(str[i]), end="")
         i += 1
-    print(" ")
