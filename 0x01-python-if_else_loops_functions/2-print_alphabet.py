@@ -2,5 +2,5 @@
 alph = "abcdefghijklmnopqrstuvwxyz"
 i = 0
 while (i != 26):
-    print(f"{alph[i]}", end = "")
+    print("{}".format(alph[i]), end = "")
     i += 1
