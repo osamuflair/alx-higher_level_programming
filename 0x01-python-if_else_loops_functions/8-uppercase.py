@@ -8,7 +8,8 @@ def uppercase(str):
             shit = ord(str[i])
             mess = shit - 32
             piss = chr(mess)
-            print("{}".format(piss), end="")
         else:
-            print("{}".format(str[i]), end="")
+            piss = str[i]
+        print("{}".format(piss), end="")
         i += 1
+    print("{}".format(""))
