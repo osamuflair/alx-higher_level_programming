@@ -11,5 +11,5 @@ if __name__ == "__main__":
     if length > 1:
         i = 1
         while (i < length):
-            print("{}: {}".format(i,sys.argv[i]))
+            print("{}: {}".format(i, sys.argv[i]))
             i += 1
