@@ -1,6 +1,11 @@
 #include "lists.h"
 #include <stddef.h>
 #include <stdlib.h>
+/**
+ * is_palindrome - check if tye list is a palidrome
+ * @head: a pointer to the first list
+ * Return: 0 if false and 1 if true
+ */
 int is_palindrome(listint_t **head)
 {
 	int a;
