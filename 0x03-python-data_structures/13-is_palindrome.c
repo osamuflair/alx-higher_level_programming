@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stddef.h>
+#include <stdlib.h>
 int is_palindrome(listint_t **head)
 {
 	int a;
@@ -30,8 +31,5 @@ int is_palindrome(listint_t **head)
 		}
 	}
 	free(*head);
-	free(prev_node);
-	free(temp);
-	free(*end);
 	return a;
 }
