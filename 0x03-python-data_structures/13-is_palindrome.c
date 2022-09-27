@@ -26,7 +26,12 @@ int is_palindrome(listint_t **head)
 			(*head) = (*head)->next;
 			end = &(*head);
 			is_palindrome(end);
+
 		}
 	}
+	free(*head);
+	free(prev_node);
+	free(temp);
+	free(*end);
 	return a;
 }
