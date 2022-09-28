@@ -5,6 +5,6 @@ def search_replace(my_list, search, replace):
     if m == 0:
         return mylist
     for i in range(m):
-        n  = mylist.index(search)
+        n = mylist.index(search)
         mylist[n] = replace
     return mylist
