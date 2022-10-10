@@ -3,5 +3,8 @@ def safe_print_integer(value):
     try:
         print("{:d}".format(value))
         return True
-    except:
-        False
+    except (ValueError):
+        return False
+
+value = "h"
+safe_print_integer(value)
