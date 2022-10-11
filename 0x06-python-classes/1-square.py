@@ -3,6 +3,7 @@
 A python file to demonstrate class and object
 """
 
+
 class Square:
     """
     A python class that has a value
