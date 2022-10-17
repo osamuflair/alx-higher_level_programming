@@ -2,10 +2,13 @@
 '''
 a python class
 '''
+
+
 class Rectangle:
     '''
     that has value
     '''
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
@@ -13,6 +16,7 @@ class Rectangle:
     @property
     def height(self):
         return self.__height
+
     @height.setter
     def height(self, value):
         if type(value) != int:
@@ -24,6 +28,7 @@ class Rectangle:
     @property
     def width(self):
         return self.__width
+
     @width.setter
     def width(self, value):
         if type(value) != int:
